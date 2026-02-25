@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    /* font-size: large; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainheading{
+    text-align: center;
+    padding: 20px;
+}
+
+section h2{
+    border-bottom: 1px solid lightgrey;
+    padding: 10px 0;
+}
+
+section p{
+    padding: 15px 0;
+    /* border-bottom: 1px solid lightgray; */
+    /* font-size: large; */
+}
+
+.one{
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.one .item1{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    padding: 20px 20px 30px 20px;
+}
+
+.sec{
+    padding: 25px 0 0 0;
+}
+.two{
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.two .item2{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    /* width: 100%; */
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: large; */
+}
+
+
+.thr{
+    padding: 25px 0 0 0;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.three1{
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.three1 .item31{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    padding: 20px 20px 35px 20px;
+    /* font-size: large; */
+}
+.three2{
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.three2 .item32{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    padding: 20px 20px 35px 20px;
+}
+
+.fr{
+    padding: 25px 0 0 0;
+}
+.four{
+    border: 1px solid lightgray;
+    padding: 50px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* font-size: large; */
+}
+
+.four .item41{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    height: 60px;
+    width: 5.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.four .item42{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid;
+    padding: 15px 0;
+    height: 100px;
+    width: 5.2%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.four .item43{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    padding: 20px 20px;
+}
+
+.fi{
+    padding: 25px 0 0 0;
+}
+
+.five{
+    border: 1px solid lightgrey;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* font-size: large; */
+}
+
+.five .item5{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    /* padding: 30px 80px; */
+    padding: 25px 80px 35px;
+}
+
+.si{
+    padding: 25px 0 0 0;
+}
+
+.six{
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.six .item6{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    padding: 20px 20px 40px 20px ;
+}
+
+.sev{
+    padding: 25px 0 0 0;
+}
+
+.seven{
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.seven .item71{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    padding: 20px 30px 35px;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.seven .item72{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    padding: 20px 30px 35px;
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.seven .item73{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    padding: 20px 20px 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.ei{
+    padding: 25px 0 0 0;
+}
+
+.eight{
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 25%;
+    display: flex;
+    /* flex-shrink: ; */
+    gap: 10px;
+}
+
+.eight .item8{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    padding: 20px 37px 35px;
+}
+
+
+.ni{
+    padding: 25px 0 0 0;
+}
+
+.nine{
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.nine .item91{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    padding: 20px 35px 35px ;
+}
+.nine .item92{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    padding: 20px 20px 35px ;
+}
+
+
+.ti{
+    padding: 25px 0 0 0;
+}
+
+.ten{
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.ten .item10{
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    padding: 20px 20px 35px;
+}
+
+.el{
+    padding: 25px 0 0 0;
+}
+
+.eleven{
+    height: 160px;
+    border: 1px solid lightgray;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.eleven .item11{
+    /* width: 120px;
+    height: 80px; */
+    padding: 20px 20px;
+    background-color: rgb(173, 216, 230);
+    border: 1px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    align-self:flex-start;
+}
+
+.cen{
+    align-self: center;
+}
+
+.bot{
+    align-self: flex-end;
+}
